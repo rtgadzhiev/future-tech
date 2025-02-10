@@ -17,8 +17,16 @@
 @use 'blocks/resources-preview';
 @use 'blocks/advantage-card';
 @use 'blocks/hero';
+@use 'blocks/tag';
+@use 'blocks/section';
+@use 'blocks/list';
+@use 'blocks/tile';
+@use 'blocks/card';
 
-// .header,
-// .footer {
-//   display: none !important;
-// }
+ .header,
+ main > *:not(:last-child),
+ .footer {
+   display: none !important;
+ }
+
+// TODO: 3.47.56
