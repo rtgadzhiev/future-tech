@@ -1062,6 +1062,19 @@ button[aria-label]::before {
   }
 }
 
+.tag {
+  font-size: clamp(0.875rem, 0.7541322314rem + 0.4958677686vw, 1.25rem);
+  padding: 0.375rem 0.625rem;
+  color: var(--color-light);
+  background-color: var(--color-dark-20);
+  border-radius: 0.25rem;
+}
+@media (width <= 90.06125rem) {
+  .tag {
+    padding: 0.25rem 0.5rem;
+  }
+}
+
 .section__header {
   padding-block: clamp(2.5rem, 0.8884297521rem + 6.6115702479vw, 7.5rem);
   background-color: var(--color-dark-10);
