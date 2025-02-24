@@ -22,11 +22,14 @@
 @use 'blocks/list';
 @use 'blocks/tile';
 @use 'blocks/card';
+@use 'blocks/tabs';
+@use 'blocks/person-card';
+@use 'blocks/blog-actions';
+@use 'blocks/blog-card';
+@use 'blocks/download-info';
 
- .header,
- main > *:not(:last-child),
- .footer {
-   display: none !important;
- }
-
-// TODO: 3.47.56
+.header,
+main > *:not(:last-child),
+.footer {
+  display: none !important;
+}

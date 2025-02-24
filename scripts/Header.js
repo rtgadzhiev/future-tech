@@ -1,6 +1,8 @@
+const rootSelector = '[data-js-header]';
+
 class Header {
   selectors = {
-    root: '[data-js-header]',
+    root: rootSelector,
     overlay: '[data-js-header-overlay]',
     burgerButton: '[data-js-header-burger-button]',
   };
