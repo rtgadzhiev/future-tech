@@ -1797,6 +1797,7 @@ button[aria-label]::before {
 .about-card {
   display: flex;
   flex-direction: column;
+  height: 100%;
   row-gap: clamp(0.625rem, 0.423553719rem + 0.826446281vw, 1.25rem);
 }
 .about-card__title {
