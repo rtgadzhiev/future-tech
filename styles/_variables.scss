@@ -22,6 +22,8 @@
     )
     border-box;
 
+  --shadow: 0 0 0 #{rem(3)} #191919;
+
   --border: #{rem(1)} solid var(--color-dark-15);
 
   --font-family-base: 'Inter', sans-serif;
